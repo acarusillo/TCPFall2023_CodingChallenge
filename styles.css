@@ -1,19 +1,23 @@
 .container {
+   display: flex;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    margin: 10px;
 
 }
 
-.left_square {
-
-}
-
-.middle_square {
-
-}
-
-.right_square {
-
-}
+#box1 {background-color: red;}
+#box2 {background-color: blue;}
+#box3 {background-color: rgb(156, 245, 23);}
 
 .h1 {
     justify-content: center;
+}
+
+.buttons {
+    margin-top: 20px;
 }
