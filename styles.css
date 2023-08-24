@@ -1,19 +1,54 @@
-.container {
+/* Center the entire page content */
+body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Style for the boxes */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 10px;
     border: 2px solid black;
   }
   
-  #box1 { background-color: red; }
-  #box2 { background-color: green; }
-  #box3 { background-color: blue; }
+  #box1 {
+    background-color: red;
+    border-color: orange;
+    border-style: dashed;
+  }
   
+  #box2 {
+    background-color: blue;
+    border-color: pink;
+    border-style: double;
+  }
+  
+  #box3 {
+    background-color: green;
+    border-color: yellow;
+    border-style: dotted;
+  }
+  
+  /* Style for the buttons */
   .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
   }
   
